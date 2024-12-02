@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    
+  font-family: "Work Sans", sans-serif;
+}
+.btn{
+    border-radius: 8px;
+    background: #ff900e;
+    padding: 10px 10px;
+    margin: 0px;
+    color: #FFF;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    /* margin: 50px; */
+    margin-bottom: 0px;
+}
+.btn:hover{
+    background-color: #727272;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 35px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+    cursor: pointer;
+}
+.nav_ti{
+    font-size: 2rem;
+    font-weight: 700;color: #131313;
+}
+/* banner part */
+.banner_contant{
+    text-align: center;
+    margin: 10px 350px 30px 350px;
+    /* background-color: aqua; */
+}
+.banner_h{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.banner_p{
+    color: #727272;
+}
+.banner img{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+/* responsive banner */
+
+@media screen and (min-width:1px) and (max-width:576px) {
+    header{
+      
+        padding: 12px 12px;
+    }
+    .banner img{
+        /* display: none; */
+    }
+    .banner_contant{
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+       
+    }
+    nav li{
+        list-style: none;
+        margin-right: 10px;
+        /* font-weight: 500; */
+        font-size: .7rem;
+        
+    }
+    .banner_h{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    .nav_ti{
+        font-size: 1rem;
+        font-weight: 700;color: #131313;
+    }
+    .banner img{
+        width: 70%;
+        margin-left: 65px;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    header{
+      
+        padding: 12px 12px;
+        background-color: aqua;
+    }
+    .banner img{
+        /* display: none; */
+    }
+    .banner_contant{
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+       
+    }
+    nav li{
+        list-style: none;
+        margin-right: 10px;
+        /* font-weight: 500; */
+        font-size: .7rem;
+        
+    }
+    .banner_h{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    .nav_ti{
+        font-size: 1rem;
+        font-weight: 700;color: #131313;
+    }
+    .banner img{
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+} 
