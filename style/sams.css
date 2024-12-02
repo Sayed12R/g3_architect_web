@@ -63,7 +63,7 @@ nav li a{
     font-weight: 700;
     margin-bottom: 0px;
 }
-.banner_p{
+.gray_color{
     color: #727272;
 }
 .banner img{
@@ -72,6 +72,41 @@ nav li a{
     margin-top: 0px;
 }
 /* responsive banner */
+
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color:wheat; */
+}
+.sec2{
+    margin-top: 40px;
+    display: flex;
+}
+.teampic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 17px;
+}
+.quick{
+    /* background-color: aqua; */
+    margin: 220px 0px 50px 60px;
+    text-align: start;
+}
+.fe{
+    font-weight: 800;
+    color: #ff900e;
+    font-size: 30px;
+}
+.qu{
+    color: #727272;
+    font-size: 30px;
+}
+.of{
+    font-weight: 700;
+    font-size: 30px;
+}
+
 
 @media screen and (min-width:1px) and (max-width:576px) {
     header{
@@ -100,12 +135,28 @@ nav li a{
     }
     .nav_ti{
         font-size: 1rem;
-        font-weight: 700;color: #131313;
+        font-weight: 700;
+        color: #131313;
     }
     .banner img{
         width: 70%;
         margin-left: 65px;
         margin-top: 0px;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .teampic{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        margin-left: 25px;
+        
+    }
+    .quick{
+       
+        margin: 20px 0px 50px 20px;
+       
     }
 }
 @media screen and (min-width:576px) and (max-width:992px){
@@ -142,5 +193,21 @@ nav li a{
         width: 70%;
         margin-left: 100px;
         margin-top: 0px;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .teampic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+        margin-left: 20px;
+        gap: 0px;
+        
+    }
+    .quick{
+       
+        margin: 20px 200px 50px 20px;
+       
     }
 } 
