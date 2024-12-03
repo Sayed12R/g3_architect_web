@@ -167,7 +167,7 @@ main{
     color: #727272;
 }
 main{
-    /* background-color: beige; */
+    background-color: beige;
 }
 footer{
     background: rgba(255, 144, 14, 0.10); 
@@ -181,7 +181,77 @@ footer{
 .ft{
     padding: 5px ;
 }
-
+/* sec 3 */
+.sec3{
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    margin: 80px auto 0px auto;
+    /* background-color: aqua; */
+    /* height: 100vh; */
+}
+.korea img{
+    width: 80%;
+    margin: 30px auto;
+    /* height: auto; */
+    
+}
+.dbox1{
+    width: 70%;
+    margin: 0 0 0 0;
+    margin-left: 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, );
+    
+}
+.dbox{
+    row-gap: 10px;
+    padding-right: -20px;
+}
+.sec3col1{
+    margin-top:10px ;
+}
+.feature{
+ width: 90%;
+ font-size: 15px;
+ color: #727272;
+}
+.sec3col1{
+    /* background-color: #ff900e; */
+}
+#f1{
+    font-size: 32px;
+    width: 50%;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 0px;
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.badge{
+    background-color: #ff900e;
+    width: 30%;
+    text-align: center;
+    padding: 23px 10px;
+    border-radius: 8px;
+    bottom: 90px;
+    right: 50px;
+    position: relative;
+ 
+}
+.badge h1{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0px;
+}
+.badge p{
+    color: white;
+    margin: 0px;
+}
 
 @media screen and (min-width:1px) and (max-width:576px) {
     header{
@@ -297,13 +367,33 @@ footer{
     .logo img{
         width: 13%;
     }
-    
+    .sec3{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 0px;
+    }
+    #f1{
+        width: 80%;
+    }
+    .feature{
+        padding-left: 20px;
+    }
+    .korea img{
+        width: 80%;
+        margin: 30px auto;
+        padding-left: 50px;
+
+        
+    }
+    .badge{
+        left: 10px;
+    }
+ 
 }
 @media screen and (min-width:576px) and (max-width:992px){
     header{
       
         padding: 12px 12px;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     .logo img{
         width: 13%;
